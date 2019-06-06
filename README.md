@@ -26,6 +26,6 @@ java FundoImobiliario
 - Ordem de compra e venda eh feita somente quando ha fundos carregados
 - ListarContas() ira listar no console todas as contas + todas carteiras de cada conta
 
-##TODO
+## TODO
 - Ganhos com dividendo
 - Regex somente numeros para validacao
