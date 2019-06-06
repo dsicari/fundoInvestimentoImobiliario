@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test_string",
+            "request": "launch",
+            "mainClass": "test_string",
+            "projectName": "fundo_imobiliario_38e5f099"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuiFundoImobiliario",
+            "request": "launch",
+            "mainClass": "GuiFundoImobiliario"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuiFundoImobiliario",
+            "request": "launch",
+            "mainClass": "TGui.java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FundoImobiliario",
+            "request": "launch",
+            "mainClass": "FundoImobiliario"
+        }
+    ]
+}
