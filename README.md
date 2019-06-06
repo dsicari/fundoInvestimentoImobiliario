@@ -10,9 +10,9 @@ Para executar:  javac FundoImobiliario.java
 ![alt text](http://raw.githubusercontent.com/dsicari/fundoInvestimentoImobiliario/master/formMain.png)
 
 Sobre a aplicacao:    
-    - Ordem tabelas da interface:   1 - Tabela Contas 
-                                    2 - Tabela Carteiras
-                                    3 - Tabela Fundos Imobiliarios
+- Ordem tabelas da interface:   1 - Tabela Contas 
+                                2 - Tabela Carteiras
+                                3 - Tabela Fundos Imobiliarios
     - Ha contas predefinidas via codigo e usuario pode cadastrar novas contas
     - Para alterar nome, cpf e dados bancarios, clicar nos botoes laterais e informar cpf da conta
     - Ao clicar em uma conta na tabela contas, a carteira deve ser exibida na Tabela Carteiras
