@@ -1,18 +1,18 @@
 # Projeto Fundo Investimento Imobiliario
-ALUNO: Danilo de Nadai Sicari
-DATA: 06/06/2019
-CURSO: Sistemas para Internet
-FACULDADE: Fatec - Araras
+- **ALUNO:** Danilo de Nadai Sicari
+- **DATA:** 06/06/2019
+- **CURSO:** Sistemas para Internet
+- **FACULDADE:** Fatec - Araras
 
-![alt text](http://raw.githubusercontent.com/dsicari/fundoInvestimentoImobiliario/master/formMain.png)
+![Tela usuario](https://raw.githubusercontent.com/dsicari/fundoInvestimentoImobiliario/master/formMain.png)
 
 ## Para executar
-Copie os arquivos para um diretorio e:
+Copie os arquivos para um diretorio:
 ```bash
 javac FundoImobiliario.java
 java FundoImobiliario
 ```
-## Sobre a aplicacao
+## Sobre a aplicação
 - Ordem tabelas da interface:   
   - Tabela Contas 
   - Tabela Carteiras
@@ -26,6 +26,6 @@ java FundoImobiliario
 - Ordem de compra e venda eh feita somente quando ha fundos carregados
 - ListarContas() ira listar no console todas as contas + todas carteiras de cada conta
 
-#TODO
+##TODO
 - Ganhos com dividendo
 - Regex somente numeros para validacao
