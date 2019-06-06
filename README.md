@@ -4,24 +4,28 @@ DATA: 06/06/2019
 CURSO: Sistemas para Internet
 FACULDADE: Fatec - Araras
 
-Para executar:  javac FundoImobiliario.java
-                java FundoImobiliario
-                
 ![alt text](http://raw.githubusercontent.com/dsicari/fundoInvestimentoImobiliario/master/formMain.png)
 
-Sobre a aplicacao:    
-- Ordem tabelas da interface:   1 - Tabela Contas 
-                                2 - Tabela Carteiras
-                                3 - Tabela Fundos Imobiliarios
-    - Ha contas predefinidas via codigo e usuario pode cadastrar novas contas
-    - Para alterar nome, cpf e dados bancarios, clicar nos botoes laterais e informar cpf da conta
-    - Ao clicar em uma conta na tabela contas, a carteira deve ser exibida na Tabela Carteiras
-    - Ler cotacao do dia selecionando arquivo *.fii . Embora exercicio tenha solicitado, mas este arquivo nao eh um arquivo txt.
-      A lista de Fundos da classe TFii foram gravadas neste arquivo
-    - Toda vez que uma cotacao eh lida, todas as carteiras, de todas as contas sao atualizadas com o valor de cota atual do fundo
-    - Ordem de compra e venda eh feita somente quando ha fundos carregados
-    - ListarContas() ira listar no console todas as contas + todas carteiras de cada conta
+## Para executar
+Copie os arquivos para um diretorio e:
+```bash
+javac FundoImobiliario.java
+java FundoImobiliario
+```
+## Sobre a aplicacao
+- Ordem tabelas da interface:   
+  - Tabela Contas 
+  - Tabela Carteiras
+  - Tabela Fundos Imobiliarios
+- Ha contas predefinidas via codigo e usuario pode cadastrar novas contas
+- Para alterar nome, cpf e dados bancarios, clicar nos botoes laterais e informar cpf da conta
+- Ao clicar em uma conta na tabela contas, a carteira deve ser exibida na Tabela Carteiras
+- Ler cotacao do dia selecionando arquivo *.fii . Embora exercicio tenha solicitado, mas este arquivo nao eh um arquivo txt.
+  A lista de Fundos da classe TFii foram gravadas neste arquivo
+- Toda vez que uma cotacao eh lida, todas as carteiras, de todas as contas sao atualizadas com o valor de cota atual do fundo
+- Ordem de compra e venda eh feita somente quando ha fundos carregados
+- ListarContas() ira listar no console todas as contas + todas carteiras de cada conta
 
-TODO
-    - Ganhos com dividendo
-    - Regex somente numeros para validacao
+#TODO
+- Ganhos com dividendo
+- Regex somente numeros para validacao
